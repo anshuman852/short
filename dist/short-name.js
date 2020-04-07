@@ -11,9 +11,10 @@ var ShortName = function (name) {
 	}
 
 	var firstName = names[0];
+	var firstInitial = firstName.substr(0, 1);
 	var lastName = names[names.length - 1];
-	var lastInitial = lastName.substr(0, 1) + '.';
-	return firstName + ' ' + lastInitial;
+
+	return firstInitial + ' ' + lastName;
 };
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {

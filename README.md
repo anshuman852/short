@@ -6,9 +6,7 @@
 ## Install
 
 ```sh
-$ npm install --save short-name
-
-$ bower install --save short-name
+$ npm install --save @anshuman852/short@0.2.2
 ```
 
 
@@ -19,7 +17,7 @@ In node/browserify:
 ```js
 var shortName = require('short-name');
 
-var name = shortName('Tom Marvolo Riddle'); // returns `Tom R.`
+var name = shortName('Tom Marvolo Riddle'); // returns `T Riddle`
 ```
 
 In browser:

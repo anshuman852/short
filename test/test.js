@@ -5,10 +5,10 @@ var shortName = require('../');
 
 describe('short-name node module', function () {
 	it('must shorten long names', function () {
-		assert.equal(shortName('Fahad Ibnay Heylaal'), 'Fahad H.');
-		assert.equal(shortName('Lord Voldemort'), 'Lord V.');
-		assert.equal(shortName('Albus Percival Wulfric Brian Dumbledore'), 'Albus D.');
-		assert.equal(shortName('Tom Marvolo Riddle'), 'Tom R.');
+		assert.equal(shortName('Fahad Ibnay Heylaal'), 'F Heylaal');
+		assert.equal(shortName('Lord Voldemort'), 'L Voldemort');
+		assert.equal(shortName('Albus Percival Wulfric Brian Dumbledore'), 'A Dumbledore');
+		assert.equal(shortName('Tom Marvolo Riddle'), 'T Riddle');
 	});
 
 	it('should not shorten single names', function () {
