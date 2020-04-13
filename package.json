@@ -8,7 +8,7 @@
     "email": "contact@fahad19.com",
     "url": "http://fahad19.com"
   },
-  "repository": "anshuman852/short",
+  "repository": "@anshuman852/short",
   "license": "MIT",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
